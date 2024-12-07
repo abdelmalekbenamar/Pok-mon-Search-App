@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+h1, h2{
+    text-align: center;
+}
+.resultDisplay{
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    padding: 20px;
+}
+td, th{
+    background-color:darkmagenta ;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+#search-input, button{
+    height: 40px;
+}
+button{
+    background-color: darkmagenta;
+    border-radius: 20px;
+    width: 80px;
+    border: none;
+    color: white;
+}
+h2{
+    margin: 10px;
+}
+.size, .nameId{
+    padding: 10px;
+    font-size: 20px;
+}
+#sprite{
+    width: 200px;
+}
+#types{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.type{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
